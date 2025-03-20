@@ -2,5 +2,5 @@
 
 <h1 align="center"> Rocknet </h1>
 
-<p align="center"> A Server Implementation for Roblox 2016 Source Code  </p>
+<p align="center"> A Server-side Implementation for Roblox 2016 Source Code  </p>
 
