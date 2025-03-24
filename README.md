@@ -5,7 +5,7 @@
 <p align="center"> A Server-side Implementation for Roblox 2016 Source Code  </p>
 
 <h2 align="center"> Setting the Server Up </h2>
-IMPORTANT: Its in Alpha Stage, so do not want much from it, its just a basic server for make the game work.
+**IMPORTANT:** Its in Alpha Stage, so do not want much from it, its just a basic server for make the game work.
 
 1. Install **[XAMPP](https://www.apachefriends.org/index.html)** to host the server locally
 2. Download the repository
