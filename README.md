@@ -32,4 +32,4 @@
 127.0.0.1 api.10char.com
 ```
 
-Launch the Studio and have fun.
+- Launch the Studio and have fun.
