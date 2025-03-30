@@ -1,4 +1,4 @@
---rbxsig%AXFftZPXWdeJMObbs/j6g7DFTRg8tbVWwmOrO1FJ/fj3cAwtygnPMV0pSowugAAQ7n8OOrWnqunz+WV3Rk/k7nenk7PdlXc3IB/CCrriPH500aak0CdY5B0g78913XXuenRx/PSFLT7qcDdxNdx89yXkiNna7AiBlsPUlGf5TsQ=%
+--rbxsig%ya7sijF2WRbxT0jkZ5fhcnuXX1WTl2ZoSSqoIe1XvYUkR75HqXSSRgGi5+Hh5sowiPUD//zdz6NKwq1T21SZX9tWseXeNw/emu7YcJinlx3Hjwhp1L2h9SuXTXEdLUkwFiqvkj1H+6f0lbyqCDsuzHeXH3qKGqQQsifc9RZfW+c=%
 -- Prepended to Edit.lua and Visit.lua and Studio.lua and PlaySolo.lua--
 
 function ifSeleniumThenSetCookie(key, value)
@@ -18,27 +18,27 @@ local message = Instance.new("Message")
 message.Parent = workspace
 message.archivable = false
 
-game:GetService("ScriptInformationProvider"):SetAssetUrl("http://assetgame.roblox.com/Asset/")
+game:GetService("ScriptInformationProvider"):SetAssetUrl("http://localhost/Asset/")
 game:GetService("ContentProvider"):SetThreadPool(16)
-pcall(function() game:GetService("InsertService"):SetFreeModelUrl("http://assetgame.roblox.com/Game/Tools/InsertAsset.ashx?type=fm&q=%s&pg=%d&rs=%d") end) -- Used for free model search (insert tool)
-pcall(function() game:GetService("InsertService"):SetFreeDecalUrl("http://assetgame.roblox.com/Game/Tools/InsertAsset.ashx?type=fd&q=%s&pg=%d&rs=%d") end) -- Used for free decal search (insert tool)
+pcall(function() game:GetService("InsertService"):SetFreeModelUrl("http://localhost/Game/Tools/InsertAsset.ashx?type=fm&q=%s&pg=%d&rs=%d") end) -- Used for free model search (insert tool)
+pcall(function() game:GetService("InsertService"):SetFreeDecalUrl("http://localhost/Game/Tools/InsertAsset.ashx?type=fd&q=%s&pg=%d&rs=%d") end) -- Used for free decal search (insert tool)
 
 ifSeleniumThenSetCookie("SeleniumTest2", "Set URL service")
 
 settings().Diagnostics:LegacyScriptMode()
 
-game:GetService("InsertService"):SetBaseSetsUrl("http://assetgame.roblox.com/Game/Tools/InsertAsset.ashx?nsets=10&type=base")
-game:GetService("InsertService"):SetUserSetsUrl("http://assetgame.roblox.com/Game/Tools/InsertAsset.ashx?nsets=20&type=user&userid=%d")
-game:GetService("InsertService"):SetCollectionUrl("http://assetgame.roblox.com/Game/Tools/InsertAsset.ashx?sid=%d")
-game:GetService("InsertService"):SetAssetUrl("http://assetgame.roblox.com/Asset/?id=%d")
-game:GetService("InsertService"):SetAssetVersionUrl("http://assetgame.roblox.com/Asset/?assetversionid=%d")
+game:GetService("InsertService"):SetBaseSetsUrl("http://localhost/Game/Tools/InsertAsset.ashx?nsets=10&type=base")
+game:GetService("InsertService"):SetUserSetsUrl("http://localhost/Game/Tools/InsertAsset.ashx?nsets=20&type=user&userid=%d")
+game:GetService("InsertService"):SetCollectionUrl("http://localhost/Game/Tools/InsertAsset.ashx?sid=%d")
+game:GetService("InsertService"):SetAssetUrl("http://localhost/Asset/?id=%d")
+game:GetService("InsertService"):SetAssetVersionUrl("http://localhost/Asset/?assetversionid=%d")
 
-pcall(function() game:GetService("SocialService"):SetFriendUrl("http://assetgame.roblox.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsFriendsWith&playerid=%d&userid=%d") end)
-pcall(function() game:GetService("SocialService"):SetBestFriendUrl("http://assetgame.roblox.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsBestFriendsWith&playerid=%d&userid=%d") end)
-pcall(function() game:GetService("SocialService"):SetGroupUrl("http://assetgame.roblox.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsInGroup&playerid=%d&groupid=%d") end)
-pcall(function() game:GetService("SocialService"):SetGroupRankUrl("http://assetgame.roblox.com/Game/LuaWebService/HandleSocialRequest.ashx?method=GetGroupRank&playerid=%d&groupid=%d") end)
-pcall(function() game:GetService("SocialService"):SetGroupRoleUrl("http://assetgame.roblox.com/Game/LuaWebService/HandleSocialRequest.ashx?method=GetGroupRole&playerid=%d&groupid=%d") end)
-pcall(function() game:GetService("GamePassService"):SetPlayerHasPassUrl("http://assetgame.roblox.com/Game/GamePass/GamePassHandler.ashx?Action=HasPass&UserID=%d&PassID=%d") end)
+pcall(function() game:GetService("SocialService"):SetFriendUrl("http://localhost/Game/LuaWebService/HandleSocialRequest.ashx?method=IsFriendsWith&playerid=%d&userid=%d") end)
+pcall(function() game:GetService("SocialService"):SetBestFriendUrl("http://localhost/Game/LuaWebService/HandleSocialRequest.ashx?method=IsBestFriendsWith&playerid=%d&userid=%d") end)
+pcall(function() game:GetService("SocialService"):SetGroupUrl("http://localhost/Game/LuaWebService/HandleSocialRequest.ashx?method=IsInGroup&playerid=%d&groupid=%d") end)
+pcall(function() game:GetService("SocialService"):SetGroupRankUrl("http://localhost/Game/LuaWebService/HandleSocialRequest.ashx?method=GetGroupRank&playerid=%d&groupid=%d") end)
+pcall(function() game:GetService("SocialService"):SetGroupRoleUrl("http://localhost/Game/LuaWebService/HandleSocialRequest.ashx?method=GetGroupRole&playerid=%d&groupid=%d") end)
+pcall(function() game:GetService("GamePassService"):SetPlayerHasPassUrl("http://localhost/Game/GamePass/GamePassHandler.ashx?Action=HasPass&UserID=%d&PassID=%d") end)
 pcall(function() game:GetService("MarketplaceService"):SetProductInfoUrl("https://api.roblox.com/marketplace/productinfo?assetId=%d") end)
 pcall(function() game:GetService("MarketplaceService"):SetDevProductInfoUrl("https://api.roblox.com/marketplace/productDetails?productId=%d") end)
 pcall(function() game:GetService("MarketplaceService"):SetPlayerOwnsAssetUrl("https://api.roblox.com/ownership/hasasset?userId=%d&assetId=%d") end)
@@ -106,7 +106,7 @@ function doVisit()
 	else
 		player = game:GetService("Players"):CreateLocalPlayer(0)
 	end
-	player.CharacterAppearance = "http://assetgame.roblox.com/Asset/CharacterFetch.ashx?userId=1&placeId=0"
+	player.CharacterAppearance = "http://localhost/Asset/CharacterFetch.ashx?userId=1&placeId=0"
 	local propExists, canAutoLoadChar = false
 	propExists = pcall(function()  canAutoLoadChar = game.Players.CharacterAutoLoads end)
 
@@ -122,7 +122,7 @@ function doVisit()
 	
 	if not inStudio and false then
 		message.Text = "Setting Ping"
-		visit:SetPing("http://assetgame.roblox.com/Game/ClientPresence.ashx?version=old&PlaceID=0", 120)
+		visit:SetPing("http://localhost/Game/ClientPresence.ashx?version=old&PlaceID=0", 120)
 
 		message.Text = "Sending Stats"
 		game:HttpGet("")
