@@ -22,5 +22,6 @@
 7. Open **XAMPP** and Start **Apache** and **mySQL**
 8. Press **Explorer** and head over to **htdocs** folder
 9. Extract the **Rocknet** folders to that place
+10. Go to your Appsettings.xml in your **RobloxStudio\bin\Release** folder and change **roblox.com** to **10char.com**
 
 - Launch the Studio and have fun.
