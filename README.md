@@ -10,18 +10,9 @@
 
 1. Install **[XAMPP](https://www.apachefriends.org/index.html)** and **[HxD](https://mh-nexus.de/en/downloads.php?product=HxD20)** to host the server locally
 2. Download the repository
-3. Start **HxD** and drag **RobloxStudioBeta.exe** to the window
-4. Click **Search -> Replace** at the top and change every string that starts with **roblox.com** with **10char.com**, there should be 26 changed strings
-5. Enter your hosts file(should be somewhere in: **System32\Drivers\Etc**) and add these lines:
-```
-127.0.0.1 10char.com
-127.0.0.1 assetgame.10char.com
-127.0.0.1 api.10char.com
-```
-6. Save and Close the file
-7. Open **XAMPP** and Start **Apache** and **mySQL**
-8. Press **Explorer** and head over to **htdocs** folder
-9. Extract the **Rocknet** folders to that place
-10. Go to your Appsettings.xml in your **RobloxStudio\bin\Release** folder and change **roblox.com** to **10char.com**
+3. Open **XAMPP** and Start just the **Apache**
+4. Press **Explorer** and head over to **htdocs** folder
+5. Extract the **Rocknet** folders to that place
+6. Go to your AppSettings.xml in your **RobloxStudio\bin\Release** folder and change **roblox.com** to **localhost**
 
 - Launch the Studio and have fun.

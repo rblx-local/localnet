@@ -16,8 +16,7 @@ if (is_numeric($id)) {
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_SSL_VERIFYPEER => false,
-        CURLOPT_USERAGENT => "Roblox/WinInet" // set useragent else roblox will think you're a monkey from zimbabwe
-    ]);
+        CURLOPT_USERAGENT => "Roblox/WinInet"    ]);
 
     $data = curl_exec($curl);
     $code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
