@@ -13,6 +13,16 @@
 3. Open **XAMPP** and Start just the **Apache**
 4. Press **Explorer** and head over to **htdocs** folder
 5. Extract the **Rocknet** folders to that place
-6. Go to your AppSettings.xml in your **RobloxStudio\bin\Release** folder and change **roblox.com** to **localhost**
-
-- Launch the Studio and have fun.
+6. Enter the hosts file by doing: `"C:\Windows\System32\Drivers\etc\hosts"`
+7. Add these lines:
+```
+127.0.0.1 roblox.com 
+127.0.0.1 www.roblox.com 
+127.0.0.1 api.roblox.com
+127.0.0.1 versioncompatibility.roblox.com
+127.0.0.1 versioncompatibility.api.roblox.com
+127.0.0.1 clientsettings.api.roblox.com
+127.0.0.1 assetgame.roblox.com
+```
+8. Save the file and close it
+9. Have fun!
