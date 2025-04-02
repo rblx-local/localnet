@@ -18,6 +18,7 @@
     "FFlagQtStudioScreenshotEnabled": "True",
     "FFlagFixNoPhysicsGlitchWithGyro": "True",
     "FLogFullRenderObjects": "0",
+    "DFStringRobloxAnalyticsURL": "http://roblox.com/",
     "PublishedProjectsPageHeight": "535",
     "PublishedProjectsPageUrl": "/ide/publish",
     "FFlagOpenNewWindowsInDefaultBrowser": "True",
