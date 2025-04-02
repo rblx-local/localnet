@@ -19,7 +19,6 @@
 127.0.0.1 roblox.com 
 127.0.0.1 www.roblox.com 
 127.0.0.1 api.roblox.com
-127.0.0.1 versioncompatibility.roblox.com
 127.0.0.1 versioncompatibility.api.roblox.com
 127.0.0.1 clientsettings.api.roblox.com
 127.0.0.1 assetgame.roblox.com
