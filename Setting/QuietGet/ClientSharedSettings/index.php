@@ -50,7 +50,7 @@
    "FFlagEnableSetCoreTopbarEnabled": "True",
    "FFlagPlayerDropDownEnabled": "True",
    "FFlagSetCoreMoveChat": "True",
-   "FFlagSetCoreDisableChatBar": "True",
+   "FFlagSetCoreDisableChatBar": "False",
    "FFlagGraphicsGL3": "True",
    "DFFlagUserUseLuaVehicleController": "True",
    "FFlagTextBoxUnicodeAware": "True",
