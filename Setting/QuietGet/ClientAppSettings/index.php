@@ -713,7 +713,6 @@
     "DFIntLuaChatFloodCheckMessages": "7",
     "DFIntLuaChatFloodCheckInterval": "15",
     "FFlagLuaChatFiltering": "True",
-    "FFlagMobileToggleChatVisibleIcon": "True",
     "FFlagGlowEnabled": "True",
     "FFlagStudioDE9132FixEnabled": "True",
     "DFFlagHttpCurlHandle301": "True",
