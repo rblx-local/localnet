@@ -47,5 +47,5 @@ To Download **Shirts and Pants**, Watch these steps:
 6. Restart the studio for changes to be happen.
 
 
-- For any other asset apply the same method.
+- For any other asset apply the same method(s).
 - You can also fix the missing assets with these steps!
