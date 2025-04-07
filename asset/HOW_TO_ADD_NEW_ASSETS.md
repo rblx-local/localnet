@@ -18,8 +18,9 @@ To Download **Meshes**, Watch these steps:
 
 ![](image-3.png)
 
-3. Put the file inside assets folder and start **changefileextensions.bat**
-4. Restart the studio for changes to be happen.
+3. Install as mesh if you get asked
+4. Put the file inside assets folder and start **changefileextensions.bat**
+5. Restart the studio for changes to be happen.
 
 # Audios
 To Download **Audios**, Watch these steps:
