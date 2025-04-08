@@ -787,8 +787,6 @@
     "DFFlagDisableRequestMarker": "True",
     "DFFlagDisableCharacterRequest": "True",
     "FFlagStudioCollapsibleTutorials": "True",
-    "FStringStudioTutorialsUrl": "http://wiki.roblox.com/index.php?title=Studio_Tutorials_Test&studiomode=true",
-    "FStringStudioTutorialsTOCUrl": "http://wiki.roblox.com/index.php?title=Studio_Tutorials_Landing&studiomode=true",
     "FFlagSandboxHash": "True",
     "FFlagDE14316CrashFix": "True",
     "FFlagDE14317CrashFix": "True",
