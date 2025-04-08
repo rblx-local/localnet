@@ -28,7 +28,7 @@
 
 <h2 align="center"> Current Issues </h2>
 
-- Jump Animation being weird
+- Jump Animation is behaving weird
 - Emulating Devices works but the thumbstick is unusable
 
 **This issues are related the FFlags so we need to find the corresponding fflags to fix them!**
