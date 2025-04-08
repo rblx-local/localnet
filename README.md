@@ -22,6 +22,7 @@
 127.0.0.1 versioncompatibility.api.roblox.com
 127.0.0.1 clientsettings.api.roblox.com
 127.0.0.1 assetgame.roblox.com
+127.0.0.1 wiki.roblox.com
 ```
 8. Save the file and close it
 9. Have fun!
