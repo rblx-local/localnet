@@ -24,16 +24,8 @@ if ($_GET["method"] == "IsInGroup") {
 	}
 	echo '<Value Type="boolean">'.$value.'</Value>';
 }
+
 if ($_GET["method"] == "GetGroupRank") {
-	if ($_GET['groupid'] == "1200769") {
-		if (in_array((int)$_GET['playerid'], $admins)) {
-			$value = 'true';
-		} else {
-			$value = 'false';
-		}
-	} else {
-		$value = 'false';
-	}
-	echo '<Value Type="boolean">'.$value.'</Value>';
+echo '<Value Type="integer">1</Value>';
 }
 ?>

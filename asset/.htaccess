@@ -1,0 +1,6 @@
+<FilesMatch "\BodyColors.ashx$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+<FilesMatch "\CharacterFetch.ashx$">
+    SetHandler application/x-httpd-php
+</FilesMatch>

@@ -10,7 +10,7 @@
 
 1. Install **[XAMPP](https://www.apachefriends.org/index.html)** to host the server locally
 2. Download the repository
-3. Open **XAMPP** and Start just the **Apache**
+3. Open **XAMPP** and Start **Apache** and **MySQL**
 4. Press **Explorer** and head over to **htdocs** folder
 5. Extract the **Rocknet** folders to that place
 6. Enter the hosts file by doing: `"C:\Windows\System32\Drivers\etc\hosts"`
@@ -25,7 +25,11 @@
 127.0.0.1 wiki.roblox.com
 ```
 8. Save the file and close it
-9. Have fun!
+9. Now head over to this address from your browser: "http://localhost/phpmyadmin"
+10. Create a new database named **rocknetdb**
+11. Go inside that database and Press **Import** at the top
+12. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
+13. Have fun!
 
 <h2 align="center"> Current Issues </h2>
 
