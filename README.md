@@ -9,6 +9,7 @@
 **IMPORTANT:** Its in Alpha Stage, so do not want much from it, its just a basic server for make the game work.
 
 1. Install **[XAMPP](https://www.apachefriends.org/index.html)** to host the server locally
+   - Just download Apache and MySQL, other ones are unnecessary.
 2. Download the repository
 3. Open **XAMPP** and Start **Apache** and **MySQL**
 4. Press **Explorer** and head over to **htdocs** folder

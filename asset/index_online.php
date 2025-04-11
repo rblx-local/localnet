@@ -1,5 +1,5 @@
 <?php
-// Remove the index.php file and rename this file to index.php to get assets straight from ROBLOX API's (expect some rate limit tho)
+// Remove the index.php file and rename this file to index.php to get assets straight from ROBLOX API's (expect some rate limit though)
 if (!isset($_GET['id'])) {
     die('lol');
 }

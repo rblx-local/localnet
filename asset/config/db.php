@@ -10,5 +10,4 @@ try {
 } catch (PDOException $e) {
     die("CANT CONNECT, SEND THIS TO clan.58#0: " . $e->getMessage());
 }
-$_SERVER['DOCUMENT_ROOT'] = "D:/xampp/htdocs/";
 ?>

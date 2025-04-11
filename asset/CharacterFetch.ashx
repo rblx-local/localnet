@@ -7,10 +7,10 @@ if (!isset($_GET["userId"])) {
     die("no user id provided");
 }
 
-$idlol = intval($_GET["userId"]);
+$id = intval($_GET["userId"]);
 
 $query = $con->prepare("SELECT head_color, left_arm_color, right_arm_color, left_leg_color, right_leg_color, torso_color, hat1, hat2, hat3, tshirt, shirt, pants FROM users WHERE id = :userId");
-$query->execute(['userId' => $idlol]);
+$query->execute(['userId' => $id]);
 $user = $query->fetch(PDO::FETCH_ASSOC);
 
 if (!$user) {
