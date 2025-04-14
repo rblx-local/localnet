@@ -38,3 +38,7 @@
 - Emulating Devices works but the thumbstick is unusable
 
 **This issues are related the FFlags so we need to find the corresponding fflags to fix them!**
+
+<h2 align="center"> Contributors </h2>
+
+- Contributors are already listed [at here](https://github.com/P0L3NARUBA/roblox-2016-source-code?tab=readme-ov-file#%EF%B8%8F-contributors)
