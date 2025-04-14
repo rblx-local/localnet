@@ -2,8 +2,7 @@
 
 <h1 align="center"> Rocknet </h1>
 
-<p align="center"> A Server-side Implementation for Roblox 2016 Source Code  </p>
-<p align="center"> Currently it only has a *partial* backend, but we planning to make a frontend too!  </p>
+<p align="center"> A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only has a *partial* backend, but we planning to make a frontend too!   </p>
 
 <h2 align="center"> Setting the Server Up </h2>
 
