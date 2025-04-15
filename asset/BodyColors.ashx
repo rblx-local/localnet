@@ -18,9 +18,9 @@ $torso = $_GET['torsoc'];
 				<int name="LeftArmColor"><?php echo $larm?></int>
 				<int name="LeftLegColor"><?php echo $lleg?></int>
 				<string name="Name">Body Colors</string>
-				<int name="RightArmColor">"><?php echo $rarm?></</int>
-				<int name="RightLegColor">"><?php echo $rleg?></</int>
-				<int name="TorsoColor">"><?php echo $torso?></</int>
+				<int name="RightArmColor"><?php echo $rarm?></int>
+				<int name="RightLegColor"><?php echo $rleg?></int>
+				<int name="TorsoColor"><?php echo $torso?></int>
 			<bool name="archivable">true</bool>
 		</Properties>
 	</Item>
