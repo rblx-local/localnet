@@ -54,7 +54,7 @@ A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only ha
 
 ## ❤️ Contributors
 [@xspyy](https://github.com/xspyy)
-* Asset Proxy **(index_online.php)** and Trustcheck Fixes!
+* Asset Proxy **(index_online_old.php)** and Trustcheck Fixes!
 * Character and BodyColors Fetching
    * Also he gave his database, what a kind of him :)
 * Avatar Renderer
