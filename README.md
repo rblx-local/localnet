@@ -11,7 +11,7 @@ A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only ha
 1. [Setting up the Server](#-setting-up-the-server)
 2. [Current Goals](#-current-goals)
 3. [Current Issues](#%EF%B8%8F-current-issues)
-4. [Contributors](#-contributors)
+4. [Contributors](#%EF%B8%8F-contributors)
 
 ---
 
