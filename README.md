@@ -33,6 +33,9 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 127.0.0.1 www.gametest1.robloxlabs.com
 127.0.0.1 versioncompatibility.api.gametest1.robloxlabs.com
 127.0.0.1 clientsettings.api.gametest1.robloxlabs.com
+127.0.0.1 clientsettings.api.gametest2.robloxlabs.com
+127.0.0.1 data.gametest2.robloxlabs.com
+127.0.0.1 api.gametest1.robloxlabs.com
 ```
 8. Save the file and close it
 9. Now head over to this address from your browser: "http://localhost/phpmyadmin"
@@ -59,7 +62,6 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 * Asset Proxy **(index_online_old.php)** and Trustcheck Fixes!
 * Character and BodyColors Fetching
    * Also he gave his database, what a kind of him :)
-* Avatar Renderer
 
 
 [@bpr1ch3](https://github.com/bpr1ch3)
