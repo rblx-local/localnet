@@ -1,13 +1,21 @@
 ![Rocknet Logo](https://github.com/user-attachments/assets/04d7a167-a35b-474f-b86b-4d81ec6b3ac4)
 
-<h1 align="center"> Rocknet </h1>
+# Rocknet
 
-<p align="center"> A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only has a *partial* backend, but we planning to make a frontend too!   </p>
-
-<h2 align="center"> Setting the Server Up </h2>
-
+A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only has a *partial* backend, but we planning to make a frontend too!
 **IMPORTANT:** Its in Alpha Stage, so do not want much from it, its just a basic server for make the game work.
 
+**Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp)**<br>
+
+# Table of Contents
+1. [Setting up the Server](#-setting-up-the-server)
+2. [Current Goals](#-current-goals)
+3. [Current Issues](#-current-issues)
+4. [Contributors](#-contributors)
+
+---
+
+# 💻 Setting up the Server
 1. Install **[XAMPP](https://www.apachefriends.org/index.html)** to host the server locally
    - Just download Apache and MySQL, other ones are unnecessary.
 2. Download the repository
@@ -32,13 +40,27 @@
 12. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
 13. Have fun!
 
-<h2 align="center"> Current Issues </h2>
+## 🎯 Current Goals
+- Improving this project more is my main goal, you can help me to do it!
+
+## ⚠️ Current Issues
 
 - Jump Animation is behaving weird
 - Emulating Devices works but the thumbstick is unusable
 
 **This issues are related the FFlags so we need to find the corresponding fflags to fix them!**
 
-<h2 align="center"> Contributors </h2>
+---
 
-- Contributors are already listed [at here](https://github.com/P0L3NARUBA/roblox-2016-source-code?tab=readme-ov-file#%EF%B8%8F-contributors)
+## ❤️ Contributors
+[@xspyy](https://github.com/xspyy)
+* Asset Proxy **(index_online.php)** and Trustcheck Fixes!
+* Character and BodyColors Fetching
+   * Also he gave his database, what a kind of him :)
+* Avatar Renderer
+
+
+[@bpr1ch3](https://github.com/bpr1ch3)
+* New Files and FFlags
+
+Be a contributor by doing a helpful of changes to the RockNet!
