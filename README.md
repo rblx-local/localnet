@@ -63,4 +63,4 @@ A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only ha
 [@bpr1ch3](https://github.com/bpr1ch3)
 * New Files and FFlags
 
-Be a contributor by doing a helpful of changes to the RockNet!
+Be a contributor by doing a helpful of changes to the Rocknet!
