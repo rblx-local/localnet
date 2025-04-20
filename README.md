@@ -2,7 +2,7 @@
 
 # Rocknet
 
-A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only has a *partial* backend, but we planning to make a frontend too!
+A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only has a *partial* backend, but we planning to make a frontend too!<br>
 **IMPORTANT:** Its in Alpha Stage, so do not want much from it, its just a basic server for make the game work.
 
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp)**<br>
