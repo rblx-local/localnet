@@ -1,6 +1,6 @@
 <?php
  // Rename this to index.php and remove the old one if you want to use roblox apis
- // By the way the Roblox APIs changing and this script will return "401 (Unauthorized)" for some assets.
+ // By the way the Roblox APIs are changing so this script will return "401 (Unauthorized)" for some assets.
  
  header("Content-Type: application/json");
  
