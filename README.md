@@ -1,5 +1,3 @@
-![Rocknet Logo](https://github.com/user-attachments/assets/04d7a167-a35b-474f-b86b-4d81ec6b3ac4)
-
 # Rocknet
 
 A Server-side Implementation for Roblox 2016 Source Code<br>Currently it only has a *partial* backend, but we planning to make a frontend too!<br>
