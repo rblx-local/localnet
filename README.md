@@ -82,8 +82,8 @@ RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494
 [@xspyy](https://github.com/xspyy)
 * Asset Proxy **(index_online_old.php)**
 * Character and BodyColors Fetching
-   * Also he gave his database, what a kind of him :)
 * Toolbox Page and System
+* Database
 
 
 [@bpr1ch3](https://github.com/bpr1ch3)
