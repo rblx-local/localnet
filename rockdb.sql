@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 11, 2025 at 11:14 AM
+-- Generation Time: Apr 21, 2025 at 03:18 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -20,6 +20,30 @@ SET time_zone = "+00:00";
 --
 -- Database: `rocknetdb`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `asset`
+--
+
+CREATE TABLE `asset` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `approved` tinyint(1) NOT NULL DEFAULT 0,
+  `public` tinyint(1) NOT NULL DEFAULT 0,
+  `free` tinyint(1) NOT NULL DEFAULT 0,
+  `genre` varchar(50) DEFAULT NULL,
+  `itemtype` varchar(50) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `asset`
+--
+
+INSERT INTO `asset` (`id`, `name`, `approved`, `public`, `free`, `genre`, `itemtype`, `created_at`) VALUES
+(47433, 'Classic Sword', 1, 1, 1, 'Weapons', 'model', '2025-04-17 21:46:37');
 
 -- --------------------------------------------------------
 
@@ -67,6 +91,12 @@ INSERT INTO `users` (`id`, `username`, `password`, `ROBLOSECURITY`, `head_color`
 --
 
 --
+-- Indexes for table `asset`
+--
+ALTER TABLE `asset`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -75,6 +105,12 @@ ALTER TABLE `users`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `asset`
+--
+ALTER TABLE `asset`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=125013770;
 
 --
 -- AUTO_INCREMENT for table `users`
