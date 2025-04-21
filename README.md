@@ -44,9 +44,30 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 12. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
 13. Have fun!
 
+### Other
+To run **RCCService**, do the following steps:
+1. Copy **content** **PlatformContent** and **shaders** Folders frok Trunk2016 To Trunk2016\RCCService
+   - This step will not be necessary when i figure out how to fix the contentfolder
+2. Go into Trunk2016\RCCSeevice and Open a Command Prompt
+3. Type these in:
+```
+RCCService.exe -Console -verbose -placeid:1818 -port 64989
+```
+
+4. Done!
+
+To open the client, watch these steps:
+1. Go to Trunk2016\WindowsClient
+2. Open a Command Prompt and type these in:
+```
+RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494857454146494148494a494a464941574a4649574a464a4941414146415746&id=-1" --authenticationUrl "http://roblox.com/Login/Negotiate.ashx" --authenticationTicket "494857454146494148494a494a464941574a4649574a464a4941414146415746"
+```
+3. Done!
+
 ## 🎯 Current Goals
 - Improving this project more is my main goal, you can help me to do it!
 - Currently it only has a *partial* backend, but im planning to make a frontend too.
+- Fix the Client and mame it work properly.
 
 ## ⚠️ Current Issues
 
