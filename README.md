@@ -46,10 +46,8 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 
 ### Other
 To run **RCCService**, do the following steps:
-1. Copy **content**, **PlatformContent** and **shaders** Folders from Trunk2016 To Trunk2016\RCCService
-   - This step will not be necessary when i figure out how to fix the contentfolder
-2. Go into Trunk2016\RCCSeevice and Open a Command Prompt
-3. Type these in:
+1. Go into Trunk2016\RCCSeevice and Open a Command Prompt
+2. Type these in:
 ```
 RCCService.exe -Content:../../../content -Console -verbose -placeid:1818 -port 64989
 ```
@@ -57,8 +55,9 @@ RCCService.exe -Content:../../../content -Console -verbose -placeid:1818 -port 6
 4. Done!
 
 To open the **WindowsClient**, watch these steps:
-1. Go to Trunk2016\WindowsClient
-2. Open a Command Prompt and type these in:
+1. Copy RobloxPlayerBeta.exe MD5 Hash by doing Right Click > 7-Zip > CRC SHA > MD5 and put that into **GetAllowedMD5Hashes/index.php**
+2. Go to Trunk2016\WindowsClient
+3. Open a Command Prompt and type these in:
 ```
 RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494857454146494148494a494a464941574a4649574a464a4941414146415746&id=-1" --authenticationUrl "http://roblox.com/Login/Negotiate.ashx" --authenticationTicket "494857454146494148494a494a464941574a4649574a464a4941414146415746"
 ```
