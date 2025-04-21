@@ -65,7 +65,7 @@ RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494
 3. Done!
 
 ## 🎯 Current Goals
-- Fix the Client and mame it work properly.
+- Fix the Client and make it work properly.
 - Make a Frontend (HARD)
 - Add all the features (HARD)
 
