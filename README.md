@@ -56,7 +56,7 @@ RCCService.exe -Content:../../../content -Console -verbose -placeid:1818 -port 6
 
 4. Done!
 
-To open the client, watch these steps:
+To open the **WindowsClient**, watch these steps:
 1. Go to Trunk2016\WindowsClient
 2. Open a Command Prompt and type these in:
 ```
