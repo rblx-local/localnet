@@ -51,7 +51,7 @@ To run **RCCService**, do the following steps:
 2. Go into Trunk2016\RCCSeevice and Open a Command Prompt
 3. Type these in:
 ```
-RCCService.exe -Console -verbose -placeid:1818 -port 64989
+RCCService.exe -Content:../../../content -Console -verbose -placeid:1818 -port 64989
 ```
 
 4. Done!
