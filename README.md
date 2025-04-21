@@ -73,6 +73,7 @@ RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494
 
 - Jump Animation is behaving weird
 - Emulating Devices works but the thumbstick is unusable
+- WindowsClient doesnt seem like having a good time with scripts, thats why we can't control our character and camera. (Corescripts works though)
 
 **This issues are related the FFlags so we need to find the corresponding fflags to fix them!**
 
