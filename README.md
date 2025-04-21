@@ -46,7 +46,7 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 
 ### Other
 To run **RCCService**, do the following steps:
-1. Copy **content**, **PlatformContent** and **shaders** Folders frok Trunk2016 To Trunk2016\RCCService
+1. Copy **content**, **PlatformContent** and **shaders** Folders from Trunk2016 To Trunk2016\RCCService
    - This step will not be necessary when i figure out how to fix the contentfolder
 2. Go into Trunk2016\RCCSeevice and Open a Command Prompt
 3. Type these in:
