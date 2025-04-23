@@ -6,9 +6,9 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 
 # Table of Contents
 1. [Setting up the Server](#-setting-up-the-server)
-2. [Current Goals](#-current-goals)
-3. [Current Issues](#%EF%B8%8F-current-issues)
-4. [Contributors](#%EF%B8%8F-contributors)
+2. [Contributors](#%EF%B8%8F-contributors)
+3. [Current Goals](#-current-goals)
+4. [Current Issues](#%EF%B8%8F-current-issues)
 
 ---
 
@@ -63,18 +63,6 @@ RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494
 ```
 4. Done!
 
-## 🎯 Current Goals
-- Fix the Client and make it work properly.
-- Make a Frontend (HARD)
-- Add all the features (HARD)
-
-## ⚠️ Current Issues
-
-- Jump Animation is behaving weird
-- Emulating Devices works but the thumbstick is unusable
-   - **This issues are related the FFlags so we need to find the corresponding fflags to fix them!**
-- WindowsClient doesnt seem like having a good time with scripts, thats why we can't control our character and camera. (Corescripts works though)
-
 ---
 
 ## ❤️ Contributors
@@ -91,3 +79,17 @@ RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494
 * Client
 
 Be a contributor by doing a helpful of changes to the Rocknet!
+
+---
+
+## 🎯 Current Goals
+- Fix the Client and make it work properly.
+- Make a Frontend (HARD)
+- Add all the features (HARD)
+
+## ⚠️ Current Issues
+
+- Jump Animation is behaving weird
+- Emulating Devices works but the thumbstick is unusable
+   - **This issues are related the FFlags so we need to find the corresponding fflags to fix them!**
+- WindowsClient doesnt seem like having a good time with scripts, thats why we can't control our character and camera. (Corescripts works though)
