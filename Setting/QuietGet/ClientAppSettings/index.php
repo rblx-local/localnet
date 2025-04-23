@@ -1032,7 +1032,7 @@
     "DFFlagTurnOffFakeEventsForCAS": "True",
     "DFFlagTurnOffFakeEventsForInputEvents": "True",
     "FFlagCancelPendingTextureLoads": "False",
-    "DFFlagUseR15Character": "True",
+    "DFFlagUseR15Character": "False",
     "DFFlagEnableHipHeight": "True",
     "DFFlagCachedPoseInitialized": "True",
     "DFFlagFixJumpGracePeriod": "True",

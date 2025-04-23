@@ -84,8 +84,10 @@ RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494
 * Toolbox Page and System
 * Database
 
-
 [@bpr1ch3](https://github.com/bpr1ch3)
 * New Files and FFlags
+
+[@eprominecraft](https://github.com/eprominecraft)
+* Client
 
 Be a contributor by doing a helpful of changes to the Rocknet!
