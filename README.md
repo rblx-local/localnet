@@ -92,4 +92,3 @@ Be a contributor by doing a helpful of changes to the Rocknet!
 - Jump Animation is behaving weird
 - Emulating Devices works but the thumbstick is unusable
    - **This issues are related the FFlags so we need to find the corresponding fflags to fix them!**
-- WindowsClient doesnt seem like having a good time with scripts, thats why we can't control our character and camera. (Corescripts works though)
