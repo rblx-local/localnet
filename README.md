@@ -71,6 +71,7 @@ RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494
 * Character and BodyColors Fetching
 * Toolbox Page and System
 * Database
+* Avatar Thumbnail
 
 [@bpr1ch3](https://github.com/bpr1ch3)
 * New Files and FFlags
