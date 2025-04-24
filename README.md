@@ -20,29 +20,12 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 4. Press **Explorer** and head over to **htdocs** folder
 5. Extract the **Rocknet** folders to that place
 6. Enter the hosts file by doing: `"C:\Windows\System32\Drivers\etc\hosts"`
-7. Add these lines:
-```
-127.0.0.1 roblox.com 
-127.0.0.1 www.roblox.com 
-127.0.0.1 api.roblox.com
-127.0.0.1 versioncompatibility.api.roblox.com
-127.0.0.1 clientsettings.api.roblox.com
-127.0.0.1 assetgame.roblox.com
-127.0.0.1 wiki.roblox.com
-127.0.0.1 data.roblox.com
-127.0.0.1 www.gametest1.robloxlabs.com
-127.0.0.1 versioncompatibility.api.gametest1.robloxlabs.com
-127.0.0.1 clientsettings.api.gametest1.robloxlabs.com
-127.0.0.1 clientsettings.api.gametest2.robloxlabs.com
-127.0.0.1 data.gametest2.robloxlabs.com
-127.0.0.1 api.gametest1.robloxlabs.com
-```
-8. Save the file and close it
-9. Now head over to this address from your browser: "http://localhost/phpmyadmin"
-10. Create a new database named **rocknetdb**
-11. Go inside that database and Press **Import** at the top
-12. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
-13. Have fun!
+7. Launch **hosts.bat**
+8. Now head over to this address from your browser: "http://localhost/phpmyadmin"
+9. Create a new database named **rocknetdb**
+10. Go inside that database and Press **Import** at the top
+11. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
+12. Have fun!
 
 To run **RCCService**, do the following steps:
 1. Go into Trunk2016\RCCSeevice and Open a Command Prompt
