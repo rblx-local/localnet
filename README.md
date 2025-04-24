@@ -19,13 +19,12 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 3. Open **XAMPP** and Start **Apache** and **MySQL**
 4. Press **Explorer** and head over to **htdocs** folder
 5. Extract the **Rocknet** folders to that place
-6. Enter the hosts file by doing: `"C:\Windows\System32\Drivers\etc\hosts"`
-7. Launch **hosts.bat**
-8. Now head over to this address from your browser: "http://localhost/phpmyadmin"
-9. Create a new database named **rocknetdb**
-10. Go inside that database and Press **Import** at the top
-11. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
-12. Have fun!
+6. Launch **hosts.bat**
+7. Now head over to this address from your browser: "http://localhost/phpmyadmin"
+8. Create a new database named **rocknetdb**
+9. Go inside that database and Press **Import** at the top
+10. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
+11. Have fun!
 
 To run **RCCService**, do the following steps:
 1. Go into Trunk2016\RCCSeevice and Open a Command Prompt
