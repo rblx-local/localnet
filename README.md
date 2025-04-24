@@ -44,7 +44,6 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 12. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
 13. Have fun!
 
-### Other
 To run **RCCService**, do the following steps:
 1. Go into Trunk2016\RCCSeevice and Open a Command Prompt
 2. Type these in:
@@ -61,6 +60,7 @@ To open the **WindowsClient**, watch these steps:
 ```
 RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494857454146494148494a494a464941574a4649574a464a4941414146415746&id=-1" --authenticationUrl "http://roblox.com/Login/Negotiate.ashx" --authenticationTicket "494857454146494148494a494a464941574a4649574a464a4941414146415746"
 ```
+
 4. Done!
 
 ---
