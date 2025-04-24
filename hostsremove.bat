@@ -15,8 +15,6 @@ copy "%hostsFile%" "%hostsFile%.bak" >nul 2>&1
 
 REM Lines to be removed
 (
-    echo.
-    echo.
     echo 127.0.0.1 roblox.com
     echo 127.0.0.1 www.roblox.com
     echo 127.0.0.1 api.roblox.com

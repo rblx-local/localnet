@@ -14,8 +14,6 @@ copy "%hostsFile%" "%hostsFile%.bak" >nul 2>&1
 
 REM Add lines to the hosts file
 (
-echo.
-echo.
 echo 127.0.0.1 roblox.com
 echo 127.0.0.1 www.roblox.com
 echo 127.0.0.1 api.roblox.com
