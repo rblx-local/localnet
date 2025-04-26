@@ -36,6 +36,7 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 127.0.0.1 clientsettings.api.gametest2.robloxlabs.com
 127.0.0.1 data.gametest2.robloxlabs.com
 127.0.0.1 api.gametest1.robloxlabs.com
+127.0.0.1 assetgame.gametest2.robloxlabs.com
 ```
 6. Save the file and close it
 9. Now head over to this address from your browser: "http://localhost/phpmyadmin"
