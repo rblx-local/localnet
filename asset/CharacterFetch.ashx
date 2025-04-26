@@ -23,7 +23,7 @@ foreach ($user as $key => $value) {
     }
 }
 
-echo "http://localhost/asset/bodycolors.ashx?headc={$user['head_color']}&larmc={$user['left_arm_color']}&rarmc={$user['right_arm_color']}&llegc={$user['left_leg_color']}&rlegc={$user['right_leg_color']}&torsoc={$user['torso_color']};";
+echo "http://roblox.com/asset/bodycolors.ashx?headc={$user['head_color']}&larmc={$user['left_arm_color']}&rarmc={$user['right_arm_color']}&llegc={$user['left_leg_color']}&rlegc={$user['right_leg_color']}&torsoc={$user['torso_color']};";
 echo "http://localhost/asset/?id={$user['hat1']};";
 echo "http://localhost/asset/?id={$user['hat2']};";
 echo "http://localhost/asset/?id={$user['hat3']};";
