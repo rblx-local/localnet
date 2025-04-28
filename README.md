@@ -5,10 +5,10 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp)**<br>
 
 # Table of Contents
-1. [Setting up the Server](#-setting-up-the-server)
-2. [Contributors](#%EF%B8%8F-contributors)
-3. [Current Goals](#-current-goals)
-4. [Current Issues](#%EF%B8%8F-current-issues)
+1. [💻 Setting up the Server](#-setting-up-the-server)
+2. [❤️ Contributors](#%EF%B8%8F-contributors)
+3. [🎯 Current Goals](#-current-goals)
+4. [⚠️ Current Issues](#%EF%B8%8F-current-issues)
 
 ---
 
