@@ -97,7 +97,7 @@ $BoxRows = $ToolboxFetch->fetchAll();
                     foreach($BoxRows as $Fetch){
                         echo "
                        <div class='ToolboxItem WithoutVoting' id='span_setitem_". $Fetch['id'] ."' ondragstart='dragRBX(". $Fetch['id'] .")'>   
-                           <a href='' class='itemLink' title='". $Fetch['name'] ."'>       
+                           <a href='' onclick='javascript:insertContent(". $Fetch['id'] .")' class='itemLink' title='". $Fetch['name'] ."'>       
                           <img alt='". $Fetch['name'] ."' id='img_span_setitem_". $Fetch['id'] ."' width='60' height='62' src='http://roblox.com/Thumbs/Asset.ashx?id=". $Fetch['id'] ."&x=60&y=62' border='0px' onerror='return Roblox.Controls.Image.OnError(this)'>   
                            </a>
                        </div>
