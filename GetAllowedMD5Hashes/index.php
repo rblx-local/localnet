@@ -1,1 +1,5 @@
-{"data":["d8512271e933498d185fef9e55f81727","16fdb86e33c3d577ee53faca9082ee76"]}
+<?php 
+// If your client is giving errors, launch genmd5.bat inside Trunk2016 and put that MD5 hash to here.
+?>
+
+{"data":["08c37379bdb5845e59b09f1bcfd88daf"]}

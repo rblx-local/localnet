@@ -55,9 +55,8 @@ RCCService.exe -Content:../../../content -Console -verbose -placeid:1818 -port 6
 4. Done!
 
 To open the **WindowsClient**, watch these steps:
-1. Copy RobloxPlayerBeta.exe MD5 Hash by doing Right Click > 7-Zip > CRC SHA > MD5 and put that into **GetAllowedMD5Hashes/index.php**
-2. Go to Trunk2016\WindowsClient
-3. Open a Command Prompt and type these in:
+1. Go to Trunk2016\WindowsClient
+2. Open a Command Prompt and type these in:
 ```
 RobloxPlayerBeta.exe --joinScriptUrl "http://roblox.com/Game/join.ashx?token=494857454146494148494a494a464941574a4649574a464a4941414146415746&id=-1" --authenticationUrl "http://roblox.com/Login/Negotiate.ashx" --authenticationTicket "494857454146494148494a494a464941574a4649574a464a4941414146415746"
 ```
