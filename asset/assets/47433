@@ -38,9 +38,9 @@
 				<token name="BottomSurfaceInput">0</token>
 				<int name="BrickColor">194</int>
 				<CoordinateFrame name="CFrame">
-					<X>-20.3999996</X>
+					<X>-30.3999996</X>
 					<Y>2.00000072</Y>
-					<Z>-0.500001192</Z>
+					<Z>63.5</Z>
 					<R00>1.45286322e-007</R00>
 					<R01>-0.999999881</R01>
 					<R02>2.77318378e-007</R02>
@@ -65,7 +65,7 @@
 				<float name="LeftParamB">0.5</float>
 				<token name="LeftSurface">0</token>
 				<token name="LeftSurfaceInput">0</token>
-				<bool name="Locked">true</bool>
+				<bool name="Locked">false</bool>
 				<token name="Material">256</token>
 				<string name="Name">Handle</string>
 				<float name="Reflectance">0.400000006</float>
