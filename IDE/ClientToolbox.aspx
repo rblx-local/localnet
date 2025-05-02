@@ -89,7 +89,6 @@ $BoxRows = $ToolboxFetch->fetchAll();
                <a href="http://roblox.com/IDE/ClientToolbox.aspx?genre=GameStuff" style="text-decoration: none;"><div id="GameStuff" class="Tabs">Game Stuff</div></a>
             </div>
          </div>
-         <div id="ToolBoxScrollWrapper">
             <div id="ToolboxItems">
             <?php
             switch(true){
@@ -110,7 +109,6 @@ $BoxRows = $ToolboxFetch->fetchAll();
             }
             ?>
             </div>
-         </div>
       </div>
    </body>
 </html>

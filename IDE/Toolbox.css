@@ -1,6 +1,4 @@
 #NewToolboxContainer{
-    border:1px solid #828790;
-    border-bottom:0;
 }
 #NewToolboxContainer #ToolboxControls{
     text-align:left;
@@ -8,7 +6,7 @@
 #NewToolboxContainer #ToolboxSelector{
     padding:8px 7px 8px;
     background-color:#F0F0F0;
-    height:20px;
+    height:50px;
     border-bottom:1px solid #CCC;
 }
 #NewToolboxContainer #ToolboxSearch{
@@ -29,8 +27,8 @@
     border:solid 1px #A7A7A7;
     cursor:pointer;
     float:left;
-    height:18px;
-    width:18px;
+    height:auto;
+    width:auto;
     background:url("/images/IDE/btn-search_glass.png") right no-repeat;
     border-left:0;
 }
@@ -64,7 +62,7 @@
 #NewToolboxContainer .Toolboxes{
     font-family:Verdana,Sans-Serif;
     font-size:8pt;
-    height:20px;
+    height:auto;
     border:1px solid #A7A7A7;
     float:left;
     min-width:135px;
