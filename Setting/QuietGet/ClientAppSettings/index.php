@@ -1386,7 +1386,7 @@
     "FFlagStudioPropertyChangedSignalHandlerFix": "True",
     "FFlagStudioScriptAnalysisGetOrCreateRefactoring": "True",
     "DFFlagCloudEditShowSaveFailureMessages": "True",
-    "FFlagStudioShowAllAdvancedObjects": "False",
+    "FFlagStudioShowAllAdvancedObjects": "True",
     "FFlagFixDecalTextureOrientation": "True",
     "DFFlagAllowHttpServiceInTeamCreate": "True",
     "DFFlagAllowRequireByAssetIdInTeamCreate": "True",
