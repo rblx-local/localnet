@@ -1,3 +1,5 @@
+![My *handmade* Roblox Logo](https://github.com/user-attachments/assets/dad023be-4fb9-4ad5-b7a3-2c66b7d45d71)
+
 <p align="center">
 <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/P0L3NARUBA/rocknet-rblx">
 </p>
