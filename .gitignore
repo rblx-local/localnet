@@ -23,6 +23,7 @@ UpgradeLog*.htm
 *.exp
 
 ## END OF VISUAL STUDIO ##
+
 ## GENERAL ##
 
 game/Tools/renders/test.png
