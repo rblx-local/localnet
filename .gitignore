@@ -7,21 +7,6 @@
 # Visual Studio cache/options directory
 .vs/
 
-# Build results
-[Oo]bj/
-
-# Upgrade
-[Bb]ackup*/
-UpgradeLog*.htm
-
-
-# Files built by Visual Studio
-*.obj
-*.pdb
-*.log
-*.ilk
-*.exp
-
 ## END OF VISUAL STUDIO ##
 
 ## GENERAL ##
