@@ -2,6 +2,11 @@
 
 A Server-side Implementation for Roblox 2016 Source Code<br>
 
+<p align="center">
+<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/P0L3NARUBA/rocknet-rblx">
+<img alt="GitHub Release" src="https://img.shields.io/github/v/release/P0L3NARUBA/rocknet-rblx">
+</p>
+
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp)**<br>
 
 # Table of Contents
