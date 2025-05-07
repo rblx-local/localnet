@@ -18,7 +18,9 @@ $render = $RCCServiceSoap->execScript($script, rand(1, getrandmax()), 120);
 $path = "renders/test.png";
 
 file_put_contents($path, base64_decode($render));
-echo "Saved " . $path . " (" . filesize($path) . " bytes)";
+$content = file_get_contents('renders/test.png');
+header('Content-Type: image/png');
+echo $content;
 
 exit;
 ?>
