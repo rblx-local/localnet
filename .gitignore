@@ -1,4 +1,34 @@
-# ignore this cuz its unnecessary
+## Ignore unwanted files/folders.
+## The Ignore List is also categorized!
+## Written by yungDoom with <3
+
+## VISUAL STUDIO ##
+
+# Visual Studio cache/options directory
+.vs/
+
+# Build results
+[Oo]bj/
+
+# Upgrade
+[Bb]ackup*/
+UpgradeLog*.htm
+
+
+# Files built by Visual Studio
+*.obj
+*.pdb
+*.log
+*.ilk
+*.exp
+
+## END OF VISUAL STUDIO ##
+## GENERAL ##
+## GENERAL ##
+
 game/Tools/renders/test.png
+
+## Personal Files & Folders
 Extras/
-/.vs/ProjectSettings.json
+
+## END OFGENERAL ##
