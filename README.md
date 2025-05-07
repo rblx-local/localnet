@@ -1,10 +1,9 @@
 # Rocknet
-
-A Server-side Implementation for Roblox 2016 Source Code<br>
-
 <p align="center">
 <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/P0L3NARUBA/rocknet-rblx">
 </p>
+
+A Server-side Implementation for Roblox 2016 Source Code<br>
 
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp)**<br>
 
