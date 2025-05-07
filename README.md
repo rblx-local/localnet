@@ -72,9 +72,7 @@ Be a contributor by doing a helpful of changes to the Rocknet!
 ---
 
 ## 🎯 Current Goals
-- Fix the Client and make it work properly.
-- Make a Frontend (💀)
-- Add all the features (💀💀)
+- Creating a Frontend
 
 ## ⚠️ Current Issues
 
