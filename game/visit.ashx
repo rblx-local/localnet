@@ -1,4 +1,4 @@
---rbxsig%ya7sijF2WRbxT0jkZ5fhcnuXX1WTl2ZoSSqoIe1XvYUkR75HqXSSRgGi5+Hh5sowiPUD//zdz6NKwq1T21SZX9tWseXeNw/emu7YcJinlx3Hjwhp1L2h9SuXTXEdLUkwFiqvkj1H+6f0lbyqCDsuzHeXH3qKGqQQsifc9RZfW+c=%
+--rbxsig%DV33NdVnQVzPPO5H5Bx5C0iYk7gKT2xrtI6Ztk23Mh8ED8K9MzhaGlAZtUkzTj0/As4d9GPQT9hw/hoAnUr44/ZjpsHYOOPPHovrYwK7QSPLyDpLESG4pEi+GT6+K8IDFWr60Qj9AL6U2tm3e0kPufkFMvCCeRomN7LTdf6DVBM=%
 -- Prepended to Edit.lua and Visit.lua and Studio.lua and PlaySolo.lua--
 
 function ifSeleniumThenSetCookie(key, value)

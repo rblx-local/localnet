@@ -1,4 +1,4 @@
---rbxsig%dn0K5K/HDzEmNUV5aBx2vkwZcoLDyrK+CEHvf31cOdbvZk1q5pESLM4f/VvK3o7D4rwtLeW/qLbTPpIa0QYf9mrs3dEZEhyKG0wuYSi1ZQbvBzWpsjTq2sQEtDxDhQhnkP1w89Eb5lMw7adLHKbo3QkAVPJ//TLhYQSF4ytv9hw=%
+--rbxsig%LcSWdMPJhO7YhG6ikcb5QzUvT7UKTN6QS9Ed5WMCPBcuesaGiloyIV1493H7niyEt0b1EZGESNQ5hr8L84QxmhJp3ZvVsLSDhBwVOX80+NoaHLGp2hx9gzuC2glf/8ELBSqVX0Vy1nBR7Z3Kgn42IntGMvvz/Ryfedj5nwWKLKo=%
 pcall(function() game:GetService("InsertService"):SetFreeDecalUrl("https://www.roblox.com/Game/Tools/InsertAsset.ashx?type=fd&q=%s&pg=%d&rs=%d") end)
 
 game:GetService("ScriptInformationProvider"):SetAssetUrl("http://www.roblox.com/Asset/")
