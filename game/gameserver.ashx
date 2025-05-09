@@ -1,4 +1,4 @@
---rbxsig%IblOSZf8f4+qRbBrRYGwoukOeC5OIqQ9y8W1ocX0P7b7b2+y2ieFosn4NIZYNOz0uSuql4/DpDYmR7yczHiijz20FMwiFCsDp5siNTGyr34WbRYmtREGfFlQ0z/Zznu0EXr7woykd7T8+svuDDWGMjMuO9uIf+Thj+Fa3ceAZ7k=%
+--rbxsig%PSUD8tdhveD1ceJhta+QGWpoaOfrFBp7zMwaU4kanJdgf8h3NyY+MaYGfcnY5KTUtbrIDn/jnIXqekVNdR3v/KTzxhrqWHOnRFiTw7U988sz/qUawrg3n7ao3b0VbaJC7jsTdx6bHTTtZYU6ZOnxlTjEw1Sg5M7rgWSPhROO20o=%
 -- Start Game Script Arguments
 local placeId, port, gameId, sleeptime, access, deprecated, timeout, machineAddress, gsmInterval, baseUrl, maxPlayers, maxGameInstances, injectScriptAssetID, apiKey, libraryRegistrationScriptAssetID, deprecated_pingTimesReportInterval, gameCode, universeId, preferredPlayerCapacity, matchmakingContextId, placeVisitAccessKey, assetGameSubdomain, protocol = ...
 
@@ -169,4 +169,3 @@ if not isCloudEdit then
 
 	Game:GetService("RunService"):Run()
 end
-
