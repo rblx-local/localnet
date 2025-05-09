@@ -50,6 +50,8 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 11. Go inside that database and Press **Import** at the top
 12. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
 13. Have fun!
+'
+**IMPORTANT:** Move Original **join.ashx** and Rename **joincl.ashx** to **join.ashx** If you're gonna play with Client.
 
 ---
 
