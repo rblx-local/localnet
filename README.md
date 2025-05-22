@@ -85,4 +85,4 @@ Be a contributor by doing a helpful of changes to the Rocknet!
 
 - Jump Animation is behaving weird
 - Emulating Devices works but the thumbstick is unusable
-   - **This issues are related the FFlags so we need to find the corresponding FFlag's to fix them!**
+   - **This both two issues are related the FFlags so we need to find the corresponding FFlag's to fix them!**
