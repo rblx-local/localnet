@@ -1,4 +1,4 @@
-![My *handmade* Rocknet Logo](https://github.com/user-attachments/assets/b2d01503-6aea-4d75-974b-d7a41698da70)
+![My *handmade* Rocknet Logo](https://github.com/user-attachments/assets/23507564-cbfe-4c5c-8360-fefa9a780fe5)
 
 <p align="center">
 <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/P0L3NARUBA/rocknet-rblx">
