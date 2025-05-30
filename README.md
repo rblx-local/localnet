@@ -74,7 +74,8 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 [@eprominecraft](https://github.com/eprominecraft)
 * Client
 
-Be a contributor by doing a helpful of changes to the Rocknet!
+**Want to be in the list and help us?**<br>
+Be a contributor by doing a helpful of changes/commits to the repository!
 
 ---
 
