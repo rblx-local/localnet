@@ -21,7 +21,10 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 # 💻 Setting up the Server
 1. Install **[XAMPP](https://www.apachefriends.org/index.html)** to host the server locally
    - Just download Apache and MySQL, other ones are unnecessary.
-2. Download the repository
+2. Open a Command Prompt and clone the repository with **[Git](https://git-scm.com/)** like this:
+```
+cd <your path> && git clone https://github.com/P0L3NARUBA/rocknet-rblx
+```
 3. Open **XAMPP** and Start **Apache** and **MySQL**
 4. Press **Explorer** and head over to **htdocs** folder
 5. Extract the **Rocknet** folders to that place
