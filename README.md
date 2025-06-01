@@ -6,7 +6,7 @@
 
 # Rocknet
 
-A local server made for Roblox 2016 Source Code<br>
+A Local Server made exclusively for the Roblox 2016 Source Code<br>
 
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp)**<br>
 
