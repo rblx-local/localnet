@@ -1,12 +1,12 @@
 ![My *handmade* Rocknet Logo](https://github.com/user-attachments/assets/23507564-cbfe-4c5c-8360-fefa9a780fe5)
 
 <p align="center">
-<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/P0L3NARUBA/rocknet-rblx">
+<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/P0L3NARUBA/Rocknet">
 </p>
 
 # Rocknet
 
-A Server-side Implementation for Roblox 2016 Source Code<br>
+A local server made for Roblox 2016 Source Code<br>
 
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp)**<br>
 
@@ -21,15 +21,13 @@ A Server-side Implementation for Roblox 2016 Source Code<br>
 # 💻 Setting up the Server
 1. Install **[XAMPP](https://www.apachefriends.org/index.html)** to host the server locally
    - Just download Apache and MySQL, other ones are unnecessary.
-2. Open a Command Prompt and clone the repository with **[Git](https://git-scm.com/)** like this:
+2. Open a Command Prompt and clone the repository with **[Git](https://git-scm.com/)** with these commands:
 ```
-cd <your path> && git clone https://github.com/P0L3NARUBA/rocknet-rblx
+cd <your xampp path> && git clone https://github.com/P0L3NARUBA/Rocknet && ren htdocs htdocsdefault && ren Rocknet htdocs 
 ```
 3. Open **XAMPP** and Start **Apache** and **MySQL**
-4. Press **Explorer** and head over to **htdocs** folder
-5. Extract the **Rocknet** folders to that place
-6. Enter the hosts file by doing: `"C:\Windows\System32\Drivers\etc\hosts"`
-7. Add these lines:
+4. Enter the hosts file by doing: `"C:\Windows\System32\Drivers\etc\hosts"`
+5. Add these lines:
 ```
 127.0.0.1 roblox.com 
 127.0.0.1 www.roblox.com 
@@ -47,12 +45,11 @@ cd <your path> && git clone https://github.com/P0L3NARUBA/rocknet-rblx
 127.0.0.1 api.gametest1.robloxlabs.com
 127.0.0.1 assetgame.gametest2.robloxlabs.com
 ```
-6. Save the file and close it
-9. Now head over to this address from your browser: "http://localhost/phpmyadmin"
-10. Create a new database named **rocknetdb**
-11. Go inside that database and Press **Import** at the top
-12. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
-13. Have fun!
+6. Save the file and close the notepad
+7. Now head over to this address from your browser: "http://localhost/phpmyadmin"
+8. Create a new database named **rocknetdb**
+9. Go inside that database and Press **Import** at the top
+10. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
 
 **IMPORTANT:** Move Original **join.ashx** to any other folder and Rename **joincl.ashx** to **join.ashx** If you're gonna play with Client. (this is temporary though, will change after we found a proper way.)
 
