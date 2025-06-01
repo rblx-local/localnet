@@ -7,6 +7,7 @@
 # Rocknet
 
 A Local Server made exclusively for the Roblox 2016 Source Code<br>
+*Name is inspired by RakNet*
 
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp)**<br>
 
