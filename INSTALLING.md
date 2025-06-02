@@ -1,4 +1,4 @@
-# Cookbook for Rocknet
+# Cookbook for the Rocknet
 1. Install **[XAMPP](https://www.apachefriends.org/index.html)** to host the server locally
    - Just download Apache and MySQL, other ones are unnecessary.
 2. Open a Command Prompt and clone the repository with **[Git](https://git-scm.com/)** with these commands:
