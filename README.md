@@ -8,7 +8,7 @@
 *Name was inspired by RakNet*
 
 **To install the server, refer to [INSTALLING.md](/INSTALLING.md)**<br>
-   - Make sure to read them properly so you wont face with any issues.
+   - Make sure to read it properly so you wont face with any issues.
 
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp) or at the [Issues](https://github.com/P0L3NARUBA/Rocknet/issues)**<br>
 
