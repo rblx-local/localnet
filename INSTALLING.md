@@ -30,5 +30,3 @@ cd <your xampp path> && git clone https://github.com/P0L3NARUBA/Rocknet && ren h
 8. Create a new database named **rocknetdb**
 9. Go inside that database and Press **Import** at the top
 10. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
-
-**IMPORTANT:** Move Original **join.ashx** to any other folder and Rename **join2.ashx** to **join.ashx** If you're gonna play with Client. (this is temporary though, will change after we found a proper way.)
