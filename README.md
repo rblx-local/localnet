@@ -49,7 +49,8 @@ Be a contributor by doing a helpful of changes/commits to the repository!
 ## ⚠️ Current Issues
 
 - Jump Animation is behaving weird
-- Emulating Devices works but the thumbstick is unusable
-   - **This both two issues are related the FFlags so we need to find the corresponding FFlag's to fix them!**
+- Emulating Devices works not well and also the thumbstick is unusable
+   - **This both two issues are related the FFlags so we need to find the corresponding FFlags to fix them!**
+   - **We have a file(index_needswork.php) that fixes both of these issues but needs to be merged with our current FFlags.**
 
 ---
