@@ -31,3 +31,5 @@ cd <your xampp path> && git clone https://github.com/P0L3NARUBA/Rocknet && ren h
 8. Create a new database named **rocknetdb**
 9. Go inside that database and Press **Import** at the top
 10. Press **Choose File** and select **rockdb.sql** and Press **Import** button at the bottom
+
+**P.S:** *version-rocknet* can be *version-md5hash* too so you can add more security.
