@@ -37,6 +37,8 @@
 
 [@eprominecraft](https://github.com/eprominecraft)
 * Client
+* Bootstrap Packer(pack.py)
+   * It's making everything easier.
 
 **Want to be in the list and help us?**<br>
 Be a contributor by doing a helpful of changes/commits to the repository!
