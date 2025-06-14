@@ -17,6 +17,7 @@ cd <your xampp path> && git clone https://github.com/P0L3NARUBA/Rocknet && ren h
 127.0.0.1 assetgame.roblox.com
 127.0.0.1 wiki.roblox.com
 127.0.0.1 data.roblox.com
+127.0.0.1 setup.roblox.com
 127.0.0.1 www.gametest1.robloxlabs.com
 127.0.0.1 versioncompatibility.api.gametest1.robloxlabs.com
 127.0.0.1 clientsettings.api.gametest1.robloxlabs.com
