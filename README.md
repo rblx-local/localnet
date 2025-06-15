@@ -40,13 +40,17 @@
 * Bootstrap Packer(pack.py)
    * It's making everything easier.
 
+[@essentialasset](https://github.com/essentialsasset)
+* Frontend
+* Backend
+
 **Want to be in the list and help us?**<br>
 Be a contributor by doing a helpful of changes/commits to the repository!
 
 ---
 
 ## 🎯 Current Goals
-- Creating a Frontend
+- Develop it further
 
 ## ⚠️ Current Issues
 
