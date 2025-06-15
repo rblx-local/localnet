@@ -42,7 +42,7 @@
 
 [@essentialasset](https://github.com/essentialsasset)
 * Frontend
-* Backend
+* Some parts of backend
 
 **Want to be in the list and help us?**<br>
 Be a contributor by doing a helpful of changes/commits to the repository!
