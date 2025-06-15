@@ -1040,7 +1040,7 @@
     "DFFlagPhysicsSenderUseOwnerTimestamp": "False",
     "DFFlagNamesOccludedAsDefault": "True",
     "FFlagUserUseNewControlScript": "True",
-    "FFlagUseDynamicTypesetterUTF8": "False",
+    "FFlagUseDynamicTypesetterUTF8": "True",
     "FStringPlaceFilter_UseNewPersistenceSubdomain": "True;359173292",
     "FStringPlaceFilter_UseNewDataStoreLogging": "True;359173292",
     "FStringPlaceFilter_InsertServiceLoadModelErrorDoNotCreateEmpty": "True;359173292",
