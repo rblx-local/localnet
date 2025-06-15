@@ -14,7 +14,6 @@
       <br>
       <h2>You have succesfully setup a new Instance!</h2>
       <h2><a href="auth\proceed.php">Proceed with registration</a></h2>
-      
     </div>
   </div>
 
