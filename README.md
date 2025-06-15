@@ -14,8 +14,7 @@
 
 # Table of Contents
 1. [❤️ Contributors](#%EF%B8%8F-contributors)
-2. [🎯 Current Goals](#-current-goals)
-3. [⚠️ Current Issues](#%EF%B8%8F-current-issues)
+2. [⚠️ Current Issues](#%EF%B8%8F-current-issues)
 
 ---
 
@@ -42,15 +41,11 @@
 
 [@essentialasset](https://github.com/essentialsasset)
 * Frontend
-* Some parts of backend
 
 **Want to be in the list and help us?**<br>
 Be a contributor by doing a helpful of changes/commits to the repository!
 
 ---
-
-## 🎯 Current Goals
-- Develop it further
 
 ## ⚠️ Current Issues
 
