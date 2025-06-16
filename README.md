@@ -50,6 +50,7 @@ Be a contributor by doing a helpful of changes/commits to the repository!
 
 ## 🎯 Current Goals
 - Adding Text Filtering API
+- Develop it Further
 
 ## ⚠️ Current Issues
 
