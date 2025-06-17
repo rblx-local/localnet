@@ -45,6 +45,7 @@
 
 **Want to be in the list and help us?**<br>
 Be a contributor by doing a helpful of changes/commits to the repository!
+*You can add your own github profile/name like at the top and tell what you did.*
 
 ---
 
