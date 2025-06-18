@@ -1,0 +1,458 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Folder" referent="RBX08A9AEDC9BE84D6484C9C2F21A39A607">
+		<Properties>
+			<string name="Name">Ragdoll</string>
+		</Properties>
+		<Item class="Model" referent="RBXB88D8BE9158F4CF9AF07EFDA4499BD9B">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">StarterGui</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="ScreenGui" referent="RBX0">
+				<Properties>
+					<string name="Name">DeathGui</string>
+				</Properties>
+				<Item class="Frame" referent="RBX1">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<string name="Name">Frame</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>0</XO>
+							<YS>0</YS>
+							<YO>0</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>1</XS>
+							<XO>0</XO>
+							<YS>1</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<token name="Style">0</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="Sound" referent="RBX2">
+					<Properties>
+						<bool name="Looped">false</bool>
+						<float name="MaxDistance">0</float>
+						<float name="MinDistance">0</float>
+						<string name="Name">uuhhh</string>
+						<float name="Pitch">1</float>
+						<bool name="PlayOnRemove">false</bool>
+						<Content name="SoundId"><url>rbxasset://sounds/uuhhh.wav</url></Content>
+						<float name="Volume">0.5</float>
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX3">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">LocalScript</string>
+						<ProtectedString name="Source"><![CDATA[repeat wait() until game.Players.LocalPlayer.Character ~= nil
+
+function died()
+script.Parent.ImageLabel.Visible = true
+for i = 1,100 do
+script.Parent.Frame.BackgroundTransparency = script.Parent.Frame.BackgroundTransparency - 0.01
+script.Parent.uuhhh:Play()
+script.Parent.uuhhh.Pitch = script.Parent.uuhhh.Pitch - 0.01
+script.Parent.ImageLabel.Size = script.Parent.ImageLabel.Size + UDim2.new(0.01, 0, 0.01, 0)
+script.Parent.ImageLabel.Position = script.Parent.ImageLabel.Position - UDim2.new(0.005, 0, 0.005, 0)
+script.Parent.ImageLabel.BackgroundTransparency = script.Parent.ImageLabel.BackgroundTransparency - 0.005
+wait()
+end
+end
+
+game.Players.LocalPlayer.Character.Humanoid.Died:connect(died)]]></ProtectedString>
+					</Properties>
+				</Item>
+				<Item class="ImageLabel" referent="RBX4">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Color3 name="BackgroundColor3">4294901760</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<Content name="Image"><url>http://www.roblox.com/asset/?id=34854607</url></Content>
+						<Color3 name="ImageColor3">4294967295</Color3>
+						<Vector2 name="ImageRectOffset">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<Vector2 name="ImageRectSize">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<float name="ImageTransparency">0</float>
+						<string name="Name">ImageLabel</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>0</XO>
+							<YS>0</YS>
+							<YO>0</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<token name="ScaleType">0</token>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>1</XS>
+							<XO>0</XO>
+							<YS>1</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<Rect2D name="SliceCenter">
+							<min>
+								<X>0</X>
+								<Y>0</Y>
+							</min>
+							<max>
+								<X>0</X>
+								<Y>0</Y>
+							</max>
+						</Rect2D>
+						<bool name="Visible">false</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Model" referent="RBXD8BD3CF1266E4218B1EE4BF9127A8F60">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">ServerScriptService</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Script" referent="RBX8">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Blood Script Insert</string>
+					<ProtectedString name="Source"><![CDATA[game.Workspace.ChildAdded:connect(function(child)
+
+P = game.Players:GetPlayerFromCharacter(child)
+
+if P ~= nil then
+
+	if P.Character ~= nil then
+
+		H = P.Character:findFirstChild("Humanoid")
+
+		if H ~= nil then
+
+			T = P.Character:findFirstChild("Torso")
+
+			
+			if T ~= nil then
+
+				giveblood = script.BloodS:clone()
+				giveblood.Disabled = false
+				giveblood.Parent = P.Character
+
+			end
+
+		end
+
+	end
+
+end
+
+end)]]></ProtectedString>
+				</Properties>
+				<Item class="Script" referent="RBX10">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">BloodS</string>
+						<ProtectedString name="Source"><![CDATA[function MakeBlood()
+
+local blood = Instance.new("Part")
+blood.formFactor = "Custom"
+blood.Size = Vector3.new(0.75,0.2,0.75)
+blood.Name = "Blood"
+blood.Reflectance = 0.2
+blood.Transparency = 0.1
+blood.Velocity = Vector3.new(math.random(1,10),math.random(1,20),math.random(1,10))
+blood.BrickColor = BrickColor.new("Really red")
+blood.Locked = true
+blood.Shape = 0
+blood.BackSurface = "Smooth"
+blood.TopSurface = "Smooth"
+
+local CC = math.random(1,2)
+
+if CC == 1 then
+
+blood.CanCollide = false
+
+elseif CC == 2 then
+
+blood.CanCollide = false
+
+end
+
+blood.Position = script.Parent.Torso.Position
+blood.Parent = script.Parent
+
+end
+
+humanoid = script.Parent.Humanoid
+lhh = humanoid.Health
+
+while true do
+
+if humanoid.Health < lhh then
+
+howmuch = math.random(7,20)
+lhh = humanoid.Health
+
+for i = 3 , howmuch do
+
+MakeBlood()
+
+end
+
+end
+
+wait(0.1)
+end
+]]></ProtectedString>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Script" referent="RBX5">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Intializer</string>
+					<ProtectedString name="Source"><![CDATA[function Intialize(character)
+	for i, child in pairs(script:GetChildren()) do
+		if child.className == "Script" or child.className == "LocalScript" then
+			local c = child:Clone()
+			c.Parent = character
+			c.Disabled = false
+		end
+	end
+end
+
+function Apply(obj)
+	if obj.className == "Humanoid" then
+		Intialize(obj.Parent)
+	end
+	for i, child in pairs(obj:GetChildren()) do
+		Apply(child)
+	end
+end
+
+Apply(game.Workspace)
+game.Workspace.ChildAdded:connect(Apply)
+]]></ProtectedString>
+				</Properties>
+				<Item class="Script" referent="RBX6">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Script</string>
+						<ProtectedString name="Source"><![CDATA[Character = script.Parent
+Humanoid = Character.Humanoid
+Torso = Character.Torso
+
+function OnDeath()
+	print("Death")
+	Humanoid.Parent = nil
+	if Torso then
+		local Head = Character:FindFirstChild("Head")
+		if Head then
+			local Neck = Instance.new("Weld")
+			Neck.Name = "Neck"
+			Neck.Part0 = Torso
+			Neck.Part1 = Head
+			Neck.C0 = CFrame.new(0, 1.5, 0)
+			Neck.C1 = CFrame.new()
+			Neck.Parent = Torso
+		end
+		local Limb = Character:FindFirstChild("Right Arm")
+		if Limb then
+
+			Limb.CFrame = Torso.CFrame * CFrame.new(1.5, 0, 0)
+			local Joint = Instance.new("Glue")
+			Joint.Name = "RightShoulder"
+			Joint.Part0 = Torso
+			Joint.Part1 = Limb
+			Joint.C0 = CFrame.new(1.5, 0.5, 0, 0, 0, 1, 0, 1, 0, -1, -0, -0)
+			Joint.C1 = CFrame.new(-0, 0.5, 0, 0, 0, 1, 0, 1, 0, -1, -0, -0)
+			Joint.Parent = Torso
+
+			local B = Instance.new("Part")
+			B.TopSurface = 0
+			B.BottomSurface = 0
+			B.formFactor = "Symmetric"
+			B.Size = Vector3.new(1, 1, 1)
+			B.Transparency = 1
+			B.CFrame = Limb.CFrame * CFrame.new(0, -0.5, 0)
+			B.Parent = Character
+			local W = Instance.new("Weld")
+			W.Part0 = Limb
+			W.Part1 = B
+			W.C0 = CFrame.new(0, -0.5, 0)
+			W.Parent = Limb
+
+		end
+		local Limb = Character:FindFirstChild("Left Arm")
+		if Limb then
+
+			Limb.CFrame = Torso.CFrame * CFrame.new(-1.5, 0, 0)
+			local Joint = Instance.new("Glue")
+			Joint.Name = "LeftShoulder"
+			Joint.Part0 = Torso
+			Joint.Part1 = Limb
+			Joint.C0 = CFrame.new(-1.5, 0.5, 0, -0, -0, -1, 0, 1, 0, 1, 0, 0)
+			Joint.C1 = CFrame.new(0, 0.5, 0, -0, -0, -1, 0, 1, 0, 1, 0, 0)
+			Joint.Parent = Torso
+
+			local B = Instance.new("Part")
+			B.TopSurface = 0
+			B.BottomSurface = 0
+			B.formFactor = "Symmetric"
+			B.Size = Vector3.new(1, 1, 1)
+			B.Transparency = 1
+			B.CFrame = Limb.CFrame * CFrame.new(0, -0.5, 0)
+			B.Parent = Character
+			local W = Instance.new("Weld")
+			W.Part0 = Limb
+			W.Part1 = B
+			W.C0 = CFrame.new(0, -0.5, 0)
+			W.Parent = Limb
+
+		end
+		local Limb = Character:FindFirstChild("Right Leg")
+		if Limb then
+
+			Limb.CFrame = Torso.CFrame * CFrame.new(0.5, -2, 0)
+			local Joint = Instance.new("Glue")
+			Joint.Name = "RightHip"
+			Joint.Part0 = Torso
+			Joint.Part1 = Limb
+			Joint.C0 = CFrame.new(0.5, -1, 0, 0, 0, 1, 0, 1, 0, -1, -0, -0)
+			Joint.C1 = CFrame.new(0, 1, 0, 0, 0, 1, 0, 1, 0, -1, -0, -0)
+			Joint.Parent = Torso
+
+			local B = Instance.new("Part")
+			B.TopSurface = 0
+			B.BottomSurface = 0
+			B.formFactor = "Symmetric"
+			B.Size = Vector3.new(1, 1, 1)
+			B.Transparency = 1
+			B.CFrame = Limb.CFrame * CFrame.new(0, -0.5, 0)
+			B.Parent = Character
+			local W = Instance.new("Weld")
+			W.Part0 = Limb
+			W.Part1 = B
+			W.C0 = CFrame.new(0, -0.5, 0)
+			W.Parent = Limb
+
+		end
+		local Limb = Character:FindFirstChild("Left Leg")
+		if Limb then
+
+			Limb.CFrame = Torso.CFrame * CFrame.new(-0.5, -2, 0)
+			local Joint = Instance.new("Glue")
+			Joint.Name = "LeftHip"
+			Joint.Part0 = Torso
+			Joint.Part1 = Limb
+			Joint.C0 = CFrame.new(-0.5, -1, 0, -0, -0, -1, 0, 1, 0, 1, 0, 0)
+			Joint.C1 = CFrame.new(-0, 1, 0, -0, -0, -1, 0, 1, 0, 1, 0, 0)
+			Joint.Parent = Torso
+
+			local B = Instance.new("Part")
+			B.TopSurface = 0
+			B.BottomSurface = 0
+			B.formFactor = "Symmetric"
+			B.Size = Vector3.new(1, 1, 1)
+			B.Transparency = 1
+			B.CFrame = Limb.CFrame * CFrame.new(0, -0.5, 0)
+			B.Parent = Character
+			local W = Instance.new("Weld")
+			W.Part0 = Limb
+			W.Part1 = B
+			W.C0 = CFrame.new(0, -0.5, 0)
+			W.Parent = Limb
+
+		end
+		--[
+		local Bar = Instance.new("Part")
+		Bar.TopSurface = 0
+		Bar.BottomSurface = 0
+		Bar.formFactor = "Symmetric"
+		Bar.Size = Vector3.new(1, 1, 1)
+		Bar.Transparency = 1
+		Bar.CFrame = Torso.CFrame * CFrame.new(0, 0.5, 0)
+		Bar.Parent = Character
+		local Weld = Instance.new("Weld")
+		Weld.Part0 = Torso
+		Weld.Part1 = Bar
+		Weld.C0 = CFrame.new(0, 0.5, 0)
+		Weld.Parent = Torso
+		--]]
+	end
+end
+
+Humanoid.Died:connect(OnDeath)]]></ProtectedString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
