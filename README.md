@@ -56,6 +56,8 @@ Be a contributor by doing a helpful of changes/commits to the repository!
 
 ## ⚠️ Current Issues
 
+- Loading Screen are not informative as the real game
+- Can't chat since the backend don't set the ChatMode
 - Missing a lot of FFLags
    - Jump Animation is behaving weird
    - Emulating Devices works not well and also the thumbstick is unusable
