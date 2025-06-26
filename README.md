@@ -14,9 +14,10 @@
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp) or at the [Issues](https://github.com/P0L3NARUBA/Rocknet/issues)**<br>
 
 # Table of Contents
-1. [❤️ Contributors](#%EF%B8%8F-contributors)
-2. [🎯 Current Goals](#-current-goals)
-3. [⚠️ Current Issues](#%EF%B8%8F-current-issues)
+1. [🔨 Tools Used](#-tools-used)
+2. [❤️ Contributors / Credits](#%EF%B8%8F-contributors--credits)
+3. [🎯 Current Goals](#-current-goals)
+4. [⚠️ Current Issues](#%EF%B8%8F-current-issues)
 
 ---
 
@@ -25,7 +26,7 @@
 
 ---
 
-## ❤️ Contributors
+## ❤️ Contributors / Credits
 See **[CONTRIBUTORS.md](/CONTRIBUTORS.md)**
 
 ---
