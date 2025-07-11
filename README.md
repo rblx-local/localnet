@@ -29,6 +29,8 @@
 ## ❤️ Contributors / Credits
 See **[CONTRIBUTORS.md](/CONTRIBUTORS.md)**
 
+**Every contribution you make will help the project move forward, and if you'd like to help us, we're always open to it!**
+
 ---
 
 ## 🎯 Current Goals
