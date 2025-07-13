@@ -1,1 +1,2 @@
 *.ashx text eof=crlf
+*.aspx text eof=crlf
