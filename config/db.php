@@ -18,6 +18,6 @@ try {
 } catch (\PDOException $e) {
 
     header('Content-Type: text/plain; charset=utf-8');
-    echo "Fuck: " . $e->getMessage();
+    echo "Uh Oh: " . $e->getMessage();
     exit;
 }
