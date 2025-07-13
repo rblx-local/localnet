@@ -38,11 +38,8 @@ See **[CONTRIBUTORS.md](/CONTRIBUTORS.md)**
 - Develop it Further
 
 ## ⚠️ Current Issues
-
-- Loading Screen are not informative as the real game
-- Can't chat since the backend don't set the ChatMode
-- Missing a lot of FFLags
-   - Jump Animation is behaving weird
-   - Emulating Devices works not well and also the thumbstick is unusable
-
----
+- The loading screen lacks informative details compared to the actual game.  
+- Chat functionality is unavailable because the backend hasn’t set the `ChatMode`.  
+- Numerous feature flags (FFlags) are missing.  
+  - The jump animation behaves oddly.  
+  - Emulated devices don’t function properly, and the thumbstick is unusable.
