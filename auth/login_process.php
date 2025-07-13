@@ -1,5 +1,4 @@
 <?php
-// all those comments are for yungDoom cause they are uhh... dumb at web dev
 session_start();
 
 // include database or it won't work
