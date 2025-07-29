@@ -13,23 +13,17 @@
 
 **Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp) or at the [Issues](https://github.com/P0L3NARUBA/Rocknet/issues)**<br>
 
+**Every contribution you make will help the project move forward, and if you'd like to help us, we're always open to it!**
+
 # Table of Contents
 1. [🔨 Tools Used](#-tools-used)
-2. [❤️ Contributors / Credits](#%EF%B8%8F-contributors--credits)
-3. [🎯 Current Goals](#-current-goals)
-4. [⚠️ Current Issues](#%EF%B8%8F-current-issues)
+2. [🎯 Current Goals](#-current-goals)
+3. [⚠️ Current Issues](#%EF%B8%8F-current-issues)
 
 ---
 
 ## 🔨 Tools Used
 - [rbxsigner](/Tools/rbxsigner) = *unknown*
-
----
-
-## ❤️ Contributors / Credits
-See **[CONTRIBUTORS.md](/CONTRIBUTORS.md)**
-
-**Every contribution you make will help the project move forward, and if you'd like to help us, we're always open to it!**
 
 ---
 
