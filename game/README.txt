@@ -1,1 +1,0 @@
-If you stuck on infinite loading or such, extract game.rar to here.

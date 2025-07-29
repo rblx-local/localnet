@@ -45,4 +45,6 @@
 
 10. Click **Choose File**, select **rockdb.sql**, then click the **Import** button at the bottom.
 
+11. Extract **game.rar** at the **game** folder to the same folder thats in.
+
 ---
