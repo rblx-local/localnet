@@ -47,4 +47,6 @@
 
 11. Extract **game.rar** at the **game** folder to the same folder thats in.
 
+✅ **Here we go! You've successfully installed the Rocknet!**
+
 ---
