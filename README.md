@@ -29,7 +29,7 @@
 
 ## 🎯 Current Goals
 - Adding Text Filtering API
-- Develop it Further
+- Doing a Proper Frontend 
 
 ## ⚠️ Current Issues
 - The loading screen lacks informative details compared to the actual game.  
