@@ -33,7 +33,6 @@
 
 ## ⚠️ Current Issues
 - The loading screen lacks informative details compared to the actual game.  
-- Chat functionality is unavailable because the backend hasn’t set the `ChatMode`.  
 - Numerous feature flags (FFlags) are missing.  
   - The jump animation behaves oddly.  
   - Emulated devices don’t function properly, and the thumbstick is unusable.
